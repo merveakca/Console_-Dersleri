@@ -1,0 +1,11 @@
+﻿--bit
+--char(10)
+--date
+--decimal(18,2)
+--int
+--n//latin alfebesi dışındaki karakterlerde kullanılır
+--varchar(50) (değişken uzunluklu veriler için kullanılır)
+
+--telefon ->char
+--TC ->char
+--ad -> Ali Mehmet Eylül Abdurrahman (varchar)

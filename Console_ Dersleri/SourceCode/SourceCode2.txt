@@ -1,0 +1,86 @@
+﻿
+            //Metotlar
+            //Geriye değer döndüren metotlar
+            //Geriye değer döndürmeyen metotlar
+
+            //kod tekrarının önüne geçmek
+
+            //void metot_isim()
+            //{
+            //İşlemler
+            //}
+
+            //void Yazdir()
+            //{
+            //    Console.WriteLine("Hoşgeldiniz");
+            //    Console.WriteLine("Ne kadar güzel bir gün");
+            //}
+            //Console.WriteLine("Merhaba Merve Hanım");
+            //Yazdir();
+
+            //void Toplam()
+            //{
+            //    int s1 = 14;
+            //    int s2 = 28;
+            //    int s3 = s1 + s2;
+            //    Console.WriteLine(s3);
+            //}
+            //Toplam();
+
+            //void yazdir(string p)
+            //{
+            //    Console.Write(p);
+            //}
+            //yazdir("merhaba");
+
+            //void kisibilgi(string ad, string soyad, string sehir)
+            //{
+            //    Console.WriteLine(ad);
+            //    Console.WriteLine(soyad);
+            //    Console.WriteLine(sehir);
+            //}
+            //kisibilgi("merve", "akça", "ankara");
+
+            //void topla(int s1,int s2)
+            //{
+            //    int sonuc = s1 + s2;
+            //    Console.WriteLine(sonuc);
+            //}
+            //topla(24, 66);
+
+            //void ogrencibilgisi(string ad, string soyad, int s1, int s2, int s3)
+            //{
+            //    int ort;
+            //    Console.WriteLine(ad);
+            //    Console.WriteLine(soyad);
+            //    ort = (s1 + s2 + s3) / 3;
+            //    Console.WriteLine("öğrencimizin ortalaması: " +ort);
+            //}
+            //ogrencibilgisi("Ali", "Çınar",30, 40, 50);
+
+            //int topla()
+            //{
+            //    int s1 = 40;
+            //    int s2 = 30;
+            //    int sonuc = s1 + s2;
+            //    return sonuc;
+            //}
+            //Console.WriteLine(topla());
+
+            //string bilgiler(string p1, string p2)
+            //{
+            //    return(p1 + " " + p2);
+            //}
+            //Console.WriteLine(bilgiler("ali","kaya"));
+
+            //int topla(int s1, int s2)
+            //{
+            //    return s1 + s2;
+            //}
+            //int sayi1, sayi2;
+            //Console.WriteLine("1. sayıyı giriniz: ");
+            //sayi1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("2. sayıyı giriniz: ");
+            //sayi2 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(topla(sayi1, sayi2));
+

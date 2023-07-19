@@ -1,0 +1,83 @@
+﻿--DML --> Data Manipulation Language
+--Select
+--Insert
+--Update
+--Delete
+
+--Select listeleme işlemleri
+--Select * From Table_Name
+
+--* All
+
+--select * From TblPerson
+--select City from TblPerson
+--select Name,City From TblPerson
+--select * from TblCountry
+--where
+--select * from TblCountry where CountryName='Fransa'
+--select * from tblCountry where CountryCapital='Ankara'
+--select * from tblCountry where CountryId<=2
+--select * from tblCountry where CountryId>2 and CountryCapital='Paris'
+--select * from tblCountry where CountryId<3 or CountryName='Makedonya'
+
+--insert
+--insert into(column1,column2...) vales(d1,d2,d3...)
+--insert into TblCountry (CountryName,CountryCapital) values ('Mısır','Kahire')
+--insert into TblCountry (CountryName) values ('İtalya')
+--select * from TblCountry
+
+--insert into TblPerson (Name,City) values ('Ahmet Sarı','Manisa')
+--delete from tablo_adı where şart...
+--delete from TblPerson where Name='Ahmet Sarı'
+
+--select * from TblPerson
+
+--update TblPerson set city='Sakarya' where Id=5
+--select * from TblPerson
+
+--silme işlemi için
+--delete from tablo_adı where şart...
+--Delete from TblPerson where Id=5
+--select * from TblPerson
+
+--update TblPerson set name='Ahmet Sarılı',City='Artvin' where Id=4
+--select * from TblPerson
+
+--update TblPerson set city='Sakarya' where Id=2
+--select * from TblPerson
+--insert into TblPerson (name,city) values ('Aslı ','Kütahya')
+--select * from TblPerson
+
+--Count(tüm kayıtları say)  ,  Sum(toplam)  ,  Avg(ortalama)
+
+--code airlines
+--Uçuş
+--ID Kalkış Varş Fiyat Kapasite
+--reletion (veri tutarlılığı ve veri tekrarının önüne geçilmesi)
+--departure-arrival
+
+--Kategori Ürünler
+--1 ->Beyaz Eşya ->Buzdolabı
+--1 ->Beyaz Eşya ->Çamaşır Makinesi
+--1 ->Beyaz Eşya ->Bulaşık Makinesi
+--2 ->Küçük Ev Aletleri ->Avize
+--2 ->Küçük Ev Aletleri ->Kettle
+--Uzun isim yerine sayısal ifade kullanılırsa daha sağlıklı olur
+
+--select * from TblFlight
+
+--select * from TblFlight
+
+--select Count(*) From TblPerson
+
+--select Count(*) From TblFlight where price<100
+
+--select sum(capacity) from TblFlight
+
+--select avg(price) from TblFlight
+
+--select * from TblFlight where DepartureLocation=(select CountryID from TblCountry where CountryName='Türkiye')
+
+
+
+

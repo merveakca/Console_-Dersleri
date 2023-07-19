@@ -1,0 +1,91 @@
+﻿
+            //adonet vs entity framework
+            //code First vs dbfirst
+            //Asp.Net Core
+            //DbFirst
+
+            DbiVisitEntities db = new DbiVisitEntities();
+            void listele()
+            {
+                var values = db.TblCountry.ToList();
+                foreach (var item in values)
+                {
+                    Console.WriteLine(item.CountryId + "-" + item.CountryName + "-" + item.CountryCapital);
+                    Console.WriteLine("**********************");
+                }
+            }
+
+            //--Sınıf--Prop--Value
+
+            //TblPerson t = new TblPerson();
+            //t.City = "İzmir";
+            //t.Name = "Berat Yıldırım";
+            //db.TblPerson.Add(t);
+            //db.SaveChanges();
+
+            //TblCountry t = new TblCountry();
+            //t.CountryName = "İspanya";
+            //t.CountryCapital = "Madrid";
+            //db.TblCountry.Add(t);
+            //db.SaveChanges();
+
+            //Console.Write("Silinecek değeri girin: ");
+            //int countryCode = Convert.ToInt32(Console.ReadLine());
+
+            //var value = db.TblCountry.Find(countryCode);
+            //db.TblCountry.Remove(value);
+            //db.SaveChanges();
+            //listele();
+
+            //Güncelleme işlemi için
+            //var value = db.TblCountry.Find(1);
+            //value.CountryName = "Belçika";
+            //value.CountryCapital = "Brüksel";
+            //db.SaveChanges();
+            //listele();
+
+            // x=>x.            
+            //Console.Write("Ülke adı: ");
+            //string country = Console.ReadLine();
+            //var values2 = db.TblCountry.Where(x => x.CountryName == country).ToList();
+            //foreach(var item in values2)
+            //{
+            //    Console.WriteLine(item.CountryId + " " + item.CountryCapital);
+            //}
+
+            //var values3 = db.TblFlight.Where(x => x.DepartureLocation == 1 && x.Price <= 300).ToList();
+            //foreach(var item in values3)
+            //{
+            //    Console.WriteLine("ID: " + item.FlightID + "Nereden: " + item.TblCountry.CountryCapital + " Fiyat: " + item.Price);
+            //}
+
+            //var value = db.TblPerson.Count();
+            //Console.WriteLine("Toplam Kişi Sayısı: " + value);
+
+            //var value = db.TblFlight.Average(x => x.Price);
+            //Console.WriteLine(value);
+
+            //var value = db.TblFlight.Sum(x => x.Price);
+            //Console.WriteLine(value);
+
+            //ödev: tüm biletler satılırsa (koltukların hepsi) kasamıza ne kadar para girer?
+            //var value = db.TblFlight.Sum(x => x.Price * x.Capacity);
+            //Console.WriteLine(value);
+
+            //alt_sorgu
+            //var value = db.TblCountry.Where(x => x.CountryName == "İtalya").Select(y => y.CountryId).FirstOrDefault();
+            //var value2 = db.TblFlight.Where(x => x.DepartureLocation == value).ToList();
+            //foreach(var item in value2)
+            //{
+            //    Console.Write(item.FlightID + " " + item.Price);
+            //}
+            
+            //var value2 = db.TblFlight.Where(x => x.DepartureLocation == db.TblCountry.Where(y => y.CountryName == "İtalya").Select(y => y.CountryId).FirstOrDefault()).ToList();
+            //foreach (var item in value2)
+            //{
+            //    Console.Write(item.FlightID + " " + item.Price);
+            //}
+
+
+
+            Console.ReadLine();

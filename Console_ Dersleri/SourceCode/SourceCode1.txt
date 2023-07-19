@@ -1,0 +1,510 @@
+﻿ //Console.Write("hello world");
+            //Console.Write("my name is Merve");
+
+            //Console.WriteLine("mesleğim yazılım");
+
+            //Console.WriteLine("kişi tanıtım kartı");
+            //Console.WriteLine();
+            //Console.WriteLine("Adınız: Merve");
+            //Console.WriteLine("Soyadınız: Akça");
+            //Console.WriteLine("Mesleğim: Yazılım mühendisi");
+
+            //Değişkenler
+            //Bellek --> Ram Geçici Bellek
+            //Sayısal, Alfabetik, Lojik Veriler,Karakterler
+
+            //(s1+s2+s3) / 3 = sonuç
+
+            //string
+
+            //Değişken_Türü Değişken_ismi ;
+
+            //string city;
+            //city = "Dublin";
+            //Console.Write(city);
+
+            //string capital, country;
+            //capital = "Ankara";
+            //country = "Türkiye";
+            //Console.Write(capital +" "+ country);
+
+            //camel Case
+            //string nameSurname;
+            //nameSurname = "Merve Akça";
+            //Console.Write(nameSurname);
+
+            //string job;
+            //job = "Software Engineer";
+            //Console.Write("Your Job: "+ job);
+
+            //int değişkenler
+
+            //int number;
+            //number = 35;
+            //Console.Write(number);
+
+            //int number = 35;
+            //Console.Write(number);
+
+            //int n1, n2, total;
+            //n1 = 15;
+            //n2 = 35;
+            //total = n1 + n2;
+            //Console.Write(total);
+
+            //int number1, number2, addition, extraction, multiplcation, division;
+            //number1 = 20;
+            //number2 = -8;
+            //addition = number1 + number2;
+            //extraction = number1 - number2;
+            //multiplcation = number1 * number2;
+            //division = number1 / number2;
+            //Console.WriteLine("Toplam: " + addition);
+            //Console.WriteLine("Çıkartma: " + extraction);
+            //Console.WriteLine("Çarpma: " + multiplcation);
+            //Console.WriteLine("Bölme: " + division);
+
+            //Console.Write("Lütfen adınızı giriniz:");
+            //string ad;
+            //ad = Console.ReadLine();
+            //Console.WriteLine("Hoş geldiniz " + ad);
+
+            //string city, country;
+            //Console.Write("Ülke: ");
+            //country = Console.ReadLine();
+            //Console.Write("Şehir: ");
+            //city = Console.ReadLine();
+            //Console.Write(city+" "+country);
+
+            //convert Cast
+            //Convert.DönüşümTürü(Dönüştürülecek_Değer);
+            //int sayı;
+            //Console.Write("Sayıyı giriniz: ");
+            //sayı = Convert.ToInt32(Console.ReadLine());
+            //Console.Write(sayı);
+
+            //int s1;
+            //Console.Write("Sayıyı giriniz: ");
+            //s1 = Convert.ToInt32(Console.ReadLine());
+
+            //int s1, s2, total;
+            //Console.Write("1. sayıyı giriniz: ");
+            //s1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("2. sayıyı giriniz: ");
+            //s2 = Convert.ToInt32(Console.ReadLine());
+            //total = s1 + s2;
+            //Console.Write("Toplam: " + total);
+
+            //int s1, s2;
+            //Console.Write("1. sayıyı giriniz: ");
+            //s1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("2. sayıyı giriniz: ");
+            //s2 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Toplam: " + (s1+s2));
+
+            //int kısa, uzun, alan, çevre;
+            //Console.Write("Kısa Kenarın uzunluğunu giriniz:");
+            //kısa = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Uzun kenarın uzunluğunu giriniz:");
+            //uzun = Convert.ToInt32(Console.ReadLine());
+            //çevre = (2 * kısa) + (2 * uzun);
+            //Console.Write("Çevre uzunluğu: " + çevre);
+            //alan = kısa * uzun;
+            //Console.WriteLine("      " + "Alan: "+alan);
+
+            //int kısa, uzun, alan, çevre;
+            //Console.Write("Kısa Kenarın uzunluğunu giriniz:");
+            //kısa = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Uzun kenarın uzunluğunu giriniz:");
+            //uzun = Convert.ToInt32(Console.ReadLine());
+            //çevre = (2 * kısa) + (2 * uzun);
+            //Console.Write("Çevre uzunluğu: " + çevre);
+            //alan = kısa * uzun;
+            //Console.Write("\nAlan: " + alan);
+
+            // double
+            //double sayı = 4.905439;
+            //Console.Write(sayı);
+
+            //double s1, s2, s3, ort;
+            //Console.Write("sınav 1: ");
+            //s1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("sınav 2: ");
+            //s2 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("sınav 3: ");
+            //s3 = Convert.ToInt32(Console.ReadLine());
+            //ort = (s1 + s2 + s3) / 3;
+            //Console.Write("ortalama= " + ort);
+
+
+            // 14786545
+            //14.786.545
+            //kod kısmında nokta
+            ////console ekranında virgül
+            //double s1, s2, s3, ort;
+            //Console.Write("sınav 1: ");
+            //s1 = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("sınav 2: ");
+            //s2 = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("sınav 3: ");
+            //s3 = Convert.ToDouble(Console.ReadLine());
+            //ort = (s1 + s2 + s3) / 3;
+            //Console.Write("ortalama= " + ort);
+
+            //char değişkenler
+            //char şehir;
+            //şehir = 'a';
+            ////Console.Write(şehir);
+
+            //char karakter;
+            //Console.Write("Karakter girişi yapınız: ");
+            //karakter = Convert.ToChar(Console.ReadLine());
+            //Console.Write(karakter);
+
+            //Karar Yapıları
+            //if else
+            //if the weather is rainy
+            //you take your umbrella
+            //else
+            //you dont take your umbrella
+
+            //şifre kontrolü
+            // operatör == eşit mi
+            //scole
+
+            //string şifre;
+            //Console.Write("Şifreyi girin: ");
+            //şifre = Console.ReadLine();
+            //if (şifre == "abc")
+            //{
+            //    Console.Write("şifre başarılı, sisteme hoş geldiniz");
+            //}
+            //else
+            //{
+            //    Console.Write("Hatalı veri girişi litfen tekrar deneyiniz");
+            //}
+
+            //double s1, s2;
+            //double ort;
+            //string durum;
+            //Console.Write("Sınav1: ");
+            //s1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("sınav2: ");
+            //s2 = Convert.ToInt32(Console.ReadLine());
+            //ort = (s1 + s2) / 2;
+            //if (ort>=50)
+            //{
+            //    durum = "tebrikler dersi geçtiniz";
+            //}
+            //else
+            //{
+            //    durum = "başarısız oldunuz";
+            //}
+            //Console.Write("ortalama: " + ort + " Durum:" + durum);
+
+            //operatörler
+            /*
+            == eşit mi
+            <= küçük veye eşit mi?
+            >= büyük veye eşit mi?
+            != eşit değilse
+            && ve
+            || veya
+            = atama
+            + - * / aritmetik semboller
+            % mod operatörü
+            10%3==>1
+             */
+
+            //string kullanici, sifre;
+            //Console.Write("Kullanıcı adı: ");
+            //kullanici = Console.ReadLine();
+            //Console.Write("Şifre: ");
+            //sifre = Console.ReadLine();
+            //if(kullanici=="merve" && sifre=="1234")
+            //{
+            //    Console.Write("işlem başarılı");
+            //}
+            //else
+            //{
+            //    Console.Write("kullanıcı adı ya da şifre hatalı");
+            //}
+
+            //string anahtar;
+            //Console.Write("Anahtar kelimeyi giriniz: ");
+            //anahtar = Console.ReadLine();
+            //if (anahtar!="bursa" && anahtar!="ankara" && anahtar!="istanbul")
+            //{
+            //    Console.Write("işlem başarılı");
+            //}
+            //else
+            //{
+            //    Console.Write("işlem başarısız");
+            //}
+
+            ////mod işlemi için aşağıdaki satıra bakalım
+            //int sonuc = 25 % 4;
+            //Console.Write(sonuc);
+
+            //int s1, s2, s3, ort;
+            //string durum;
+            //Console.Write("1. sınav notunu giriniz: ");
+            //s1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("2. sınav notunu giriniz: ");
+            //s2 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("3. sınav notunu giriniz: ");
+            //s3 = Convert.ToInt32(Console.ReadLine());
+            //ort = (s1 + s2 + s3) / 3;
+            //if (ort <= 49) 
+            //{
+            //    durum = "vasat";
+            //    Console.Write(ort + " " +durum);
+            //}
+            //if (ort >49 && ort<70)
+            //{
+            //    durum = "orta";
+            //    Console.Write(ort + " " + durum);
+            //}
+            //if (ort>=70)
+            //{
+            //    durum = "başarılı";
+            //    Console.Write(ort + " " + durum);
+            //}
+
+            //int sayi;
+            //Console.Write("Sayıyı giriniz: ");
+            //sayi = Convert.ToInt32(Console.ReadLine());
+            //if (sayi %2==0)
+            //{
+            //    Console.Write("sayı çifttir.");
+            //}
+            //else
+            //{
+            //    Console.Write("sayı tektir.");
+            //}
+
+            //Switch Case
+            //0-35 36-50 51-70 71-85 86-100
+            //örnekler
+
+            //string fruit;
+            //Console.Write("enter your fruit name: ");
+            //fruit = Console.ReadLine();
+            //switch (fruit)
+            //{
+            //    case "apple": Console.Write("elma"); break;
+            //    case "orange": Console.Write("portakal"); break;
+            //    case "strawberry": Console.Write("çilek"); break;
+            //    case "melon": Console.Write("kavun"); break;
+            //    default : Console.Write("bulunamadı"); break;
+            //}
+
+            //int s1, s2, s3, ort;
+            //Console.Write("Sınav1: ");
+            //s1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Sınav2: ");
+            //s2 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Sınav3: ");
+            //s3 = Convert.ToInt32(Console.ReadLine());
+            //ort = (s1 + s2 + s3) / 3;
+            //switch(ort)
+            //{
+            //    case 50:Console.Write("vasat"); break;
+            //    case 100:Console.Write("iyi"); break;
+            //}
+
+            //Döngüler
+            //For-While-Do While-Foreach
+            //For
+            //1: Başlangıç  2: Bitiş  3: Artış-Azalış Miktarı
+            //++ operatörü değeri 1 arttırır.
+
+            //for(int i=1;i<=10; i++)
+            //{
+            //    Console.WriteLine("Merhaba Dünya");
+            //}
+
+            //for (int i = 1; i <6; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //for (int i = 1; i <= 24; i+=7)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //çift sayıları sıralarken
+            //for (int i=1; i<21; i++)
+            //{
+            //    if(i%2==0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //3 e ve 5 e aynı anda bölünebilen sayılar
+            //for (int i=1; i<51; i++)
+            //{
+            //    if(i%3==0 && i%5==0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //3 veya 5 e bölünebilen sayılar
+            //for (int i = 1; i < 51; i++)
+            //{
+            //    if (i % 3 == 0 || i % 5 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //faktöriyel
+            // 1 * 2 * 3 * 4 * 5 = 5!
+            //1*2=2
+            //2*3=6
+            //6*4=24
+            //24*5=120
+
+            //int i, sonuc = 1;
+            //for (i=1; i<6; i++)
+            //{
+            //    sonuc = sonuc * i;
+            //}
+            //Console.Write(sonuc);
+
+            //toplam sembolüyle sıralı toplama işlemi
+            //int i, sonuc = 0;
+            //for(i=1; i<11; i++)
+            //{
+            //    sonuc = sonuc + i;
+            //}
+            //Console.Write(sonuc);
+
+            //ödev
+            //int i, sonuc = 0;
+            //for (i = 1; i <= 100; i++)
+            //{
+            //    if (i % 7 == 0)
+            //    {
+            //        sonuc = sonuc + i;
+            //    }
+            //}
+            //Console.Write(sonuc);
+
+            ////ödevin diğer bir şekli
+            //int i, sonuc = 0;
+            //for (i = 0; i <= 100; i += 7)
+            //{
+            //    sonuc = sonuc + i;
+            //}
+            //Console.Write(sonuc);
+
+            //while --> şart sağlandığı sürece
+            //int sayi = 1;
+            //while(sayi<=10)
+            //{
+            //    Console.WriteLine(sayi + " Merhaba");
+            //    sayi++;
+            //}
+
+            //int sayi = 5;
+            //while(sayi<=50)
+            //{
+            //    sayi++;
+            //    if (sayi%5==0)
+            //    {
+            //        Console.WriteLine(sayi + "  5 in katları");
+            //    }
+            //}
+
+            //Diziler
+            //[]
+            //Index --> 0
+            /*
+            dizimizin adı şehirler
+            dizimizin eleman sayısı 5
+            dizimizin 0. indexinde bulunan eleman adana
+            dizimizin son eleman index değeri 4
+            dizinin 2. indexinde bulunan eleman Kiev
+             */
+            //string[] sehirler = { "Adana", "Londra", "Kiev", "Milano", "Paris" };
+            //Console.Write(sehirler[2]);
+
+            //int[] sinav_notlari = { 45, 62, 97, 37, 81 };
+            //Console.Write(sinav_notlari[0]);
+
+            //Foreach
+            //Değişken_Türü Değişken_İsmi İn Dizi_adı
+
+            //string[] sehirler={"Ankara","Kütahya","Kırşehir","Eskişehir","Bursa"};
+            //foreach (string x in sehirler)
+            //{
+            //    Console.WriteLine(x);
+            //}
+
+            //int[] sayilar = { 47, 87, 934, 23, 76, 456, 16, 34, 39, 835 };
+            //foreach (int x in sayilar)
+            //{
+            //    if (x % 3 == 0)
+            //        Console.WriteLine(x);
+            //}
+
+            //ödev: klavyeden girilen 4 basamaklı bir sayıyı basamaklarını toplayan kodu yazınız.
+            //4856--> 4+8+5+6=23
+
+            //int sayi;
+            //Console.Write("Lütfen 4 basamaklı bir sayı giriniz: ");
+            //sayi = Convert.ToInt32(Console.ReadLine());
+            //int a, b, c, d;
+            //a = sayi / 1000;
+            //b = (sayi-(a*1000)) / 100;
+            //c = (sayi-(a*1000+b*100))/10;
+            //d = (sayi - (a * 1000 + b * 100 + c * 10)) / 1;
+            //Console.WriteLine(a+b+c+d);
+
+            //int sayi;
+            //Console.Write("Lütfen 4 basamaklı bir sayı giriniz: ");
+            //sayi = Convert.ToInt32(Console.ReadLine());
+            //int a, b, c, d;
+            //a = sayi / 1000;
+            //sayi = sayi % 1000;
+            //b = sayi / 100;
+            //sayi = sayi % 100;
+            //c = sayi / 10;
+            //d = sayi % 10;
+            //Console.WriteLine(a+b+c+d);
+
+
+            //int sayi;
+            //Console.Write("Lütfen 4 basamaklı bir sayı giriniz: ");
+            //sayi = Convert.ToInt32(Console.ReadLine());
+            //int a, b, c, d,toplam;
+            //toplam = 0;
+            //a = sayi / 1000;
+            //sayi = sayi % 1000;
+            //b = sayi / 100;
+            //sayi = sayi % 100;
+            //c = sayi / 10;
+            //d = sayi % 10;
+            //int[] basamaklar = {a,b,c,d};
+            //foreach (int x in basamaklar)
+            //{
+            //    toplam = toplam + x;
+            //}
+            //Console.WriteLine("girilen sayının basamaklarının sayı değerleri toplamı: " +a + "+" + b + "+" + c + "+" + d + "+" + "=" + toplam);
+
+            //değişkenler, karar yapıları, yazdırma konutları, döngüler, diziler öğrenildi.
+            /*
+            metotlar
+            sınıflar
+            kalıtım, kapsülleme
+            ------------------
+            veri tabanı
+            SQL
+            adonet
+            entity framework
+            n tier arc.
+             */

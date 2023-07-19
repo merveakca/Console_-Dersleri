@@ -1,0 +1,52 @@
+﻿ //Sınıflar
+            //SınıfAdı NesneAdı = new SınıfAdı();
+
+            //Country c = new Country();
+
+            //void CountryDetails()
+            //{
+            //    Console.WriteLine(c.CountryID);
+            //    Console.WriteLine(c.Name);
+            //    Console.WriteLine(c.Capital);
+            //    Console.WriteLine("--------------");
+            //}
+
+            //c.CountryID = 1;
+            //c.Name = "Turkey";
+            //c.Capital = "Ankara";
+            //CountryDetails();
+
+            //c.CountryID = 2;
+            //c.Name = "Germany";
+            //c.Capital = "Berlin";
+            //CountryDetails();
+
+            //c.CountryID = 3;
+            //c.Name = "Ukrayna";
+            //c.Capital = "Kiev";
+            //CountryDetails();
+
+            //Visitor v = new Visitor();
+            
+            //void Bilgiler()
+            //{
+            //    Console.WriteLine(v.ID);
+            //    Console.WriteLine(v.Name);
+            //    Console.WriteLine(v.City);
+            //}
+
+            //v.ID = 1;
+            //v.Name = "Ali";
+            //v.City = "Ankara";
+            //Bilgiler();
+            //v.Mesaj("Merhaba");
+
+            //v.ID = 2;
+            //v.Name = "George";
+            //v.City = "Paris";
+            //Bilgiler();
+            //v.Mesaj("Hello");
+
+
+            
+
